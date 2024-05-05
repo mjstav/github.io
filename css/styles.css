@@ -263,7 +263,7 @@ main p{
 .mtn-title h1{
     text-align: center;
     font-size: 250%;
-    color: white;
+    color: green;
     font-family: 'Libre Baskerville', serif;
     font-weight: 500;
     font-style: normal;
@@ -524,7 +524,7 @@ main p{
 }
 
 .pdm-author-link a{
-    color: crimson;
+    color: green;
 }
 
 .pdm-author-link{
@@ -694,7 +694,7 @@ i{
 }
 
 .icp-author-link a{
-    color: crimson;
+    color: green;
 }
 
 .icp-author-link{
@@ -860,7 +860,7 @@ i{
 }
 
 .tide-author-link a{
-    color: crimson;
+    color: green;
 }
 
 .tide-author-link{
@@ -994,6 +994,20 @@ i{
 
     .menu-item{
         font-size: 25px;
+    }
+
+    .title{
+        background-image: url('../img/home.jpg');
+        opacity: .95;
+        width: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .title h1{
