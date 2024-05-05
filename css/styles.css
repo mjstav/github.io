@@ -1051,6 +1051,21 @@ i{
         font-size: 25px;
     }
 
+    .mtn-title{
+        background-image: url('../img/mountains.jpeg');
+        opacity: .95;
+        height: 100vh;
+        width: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .mtn-title h1{
         font-size: 400%;
         margin-bottom: 300px;
@@ -1135,6 +1150,21 @@ i{
         font-size: 25px;
     }
 
+    .pdm-title{
+        background-image: url('../img/piedmont.jpeg');
+        opacity: .95;
+        height: 100vh;
+        width: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .pdm-title h1{
         font-size: 400%;
         color: white;
@@ -1217,6 +1247,21 @@ i{
         font-size: 25px;
     }
 
+    .icp-title{
+        background-image: url('../img/icp.jpeg');
+        opacity: .95;
+        height: 100vh;
+        width: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .icp-title h1{
         font-size: 400%;
         color: white;
@@ -1299,6 +1344,21 @@ i{
         font-size: 25px;
     }
 
+    .tide-title{
+        background-image: url('../img/tidewater.jpeg');
+        opacity: .95;
+        height: 100vh;
+        width: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .tide-title h1{
         font-size: 400%;
         color: white;
@@ -1357,6 +1417,21 @@ i{
         min-height: 350px;
     }
 
+    .contact-title{
+        background-image: url('../img/contact.jpeg');
+        opacity: .95;
+        height: 100vh;
+        width: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
     /*Footer Page*/
     .footer {
         flex-direction: row; 
