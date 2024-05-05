@@ -47,7 +47,7 @@ body{
 .title{
     background-image: url('../img/home.jpg');
     opacity: .95;
-    height: 100vh;
+    height: 60vh;
     width: auto;
     background-attachment: fixed;
     background-position: center;
@@ -1002,7 +1002,7 @@ i{
         width: auto;
         background-attachment: scroll;  /* Disable fixed background for better performance */
         background-size: cover;         /* Adjust background size to cover to avoid zooming issues */
-        height: 60vh; 
+        height: 100vh; 
     }
 
     .title h1{
