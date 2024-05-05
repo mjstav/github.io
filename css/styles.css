@@ -1000,8 +1000,8 @@ i{
         background-image: url('../img/home.jpg');
         opacity: .95;
         width: auto;
-        background-attachment: scroll;  /* Disable fixed background for better performance */
-        background-size: cover;         /* Adjust background size to cover to avoid zooming issues */
+        background-attachment: scroll;  
+        background-size: cover;         
         height: 100vh; 
     }
 
