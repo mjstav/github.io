@@ -47,9 +47,9 @@ body{
 .title{
     background-image: url('../img/home.jpg');
     opacity: .95;
-    height: 60vh;
+    height: 100vh;
     width: auto;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -999,10 +999,16 @@ i{
     .title{
         background-image: url('../img/home.jpg');
         opacity: .95;
+        height: 100vh;
         width: auto;
-        background-attachment: scroll;  
-        background-size: cover;         
-        height: 100vh; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .title h1{
