@@ -46,9 +46,17 @@ body{
 
 .title{
     background-image: url('../img/home.jpg');
-    background-attachment: scroll;  /* Disable fixed background for better performance */
-    background-size: cover;         /* Adjust background size to cover to avoid zooming issues */
-    height: 60vh; 
+    opacity: .95;
+    height: 100vh;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -992,14 +1000,9 @@ i{
         background-image: url('../img/home.jpg');
         opacity: .95;
         width: auto;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        background-attachment: scroll;  /* Disable fixed background for better performance */
+        background-size: cover;         /* Adjust background size to cover to avoid zooming issues */
+        height: 60vh; 
     }
 
     .title h1{
