@@ -250,7 +250,7 @@ main p{
     opacity: .95;
     height: 100vh;
     width: auto;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -436,7 +436,7 @@ main p{
     opacity: .95;
     height: 100vh;
     width: auto;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -614,7 +614,7 @@ main p{
     opacity: .95;
     height: 100vh;
     width: auto;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -784,7 +784,7 @@ i{
     opacity: .95;
     height: 100vh;
     width: auto;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -922,7 +922,7 @@ i{
     opacity: .95;
     height: 100vh;
     width: auto;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
