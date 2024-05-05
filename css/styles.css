@@ -46,17 +46,9 @@ body{
 
 .title{
     background-image: url('../img/home.jpg');
-    opacity: .95;
-    height: 100vh;
-    width: auto;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-attachment: scroll;  /* Disable fixed background for better performance */
+    background-size: cover;         /* Adjust background size to cover to avoid zooming issues */
+    height: 60vh; 
 }
 
 h1{
@@ -1050,7 +1042,7 @@ i{
 
     .mtn-title h1{
         font-size: 400%;
-        margin-bottom: 400px;
+        margin-bottom: 300px;
     }
 
     .mtn-main{
