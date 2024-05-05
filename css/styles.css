@@ -1,0 +1,1358 @@
+body{
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-color:#dd9f62;
+}
+
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+    background-color: transparent;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.logo{
+    max-width: 20px;
+    height: auto;
+}
+
+.nav-bar{
+    top: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+}
+
+.menu-item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 8px;
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+
+.title{
+    background-image: url('../img/home.jpg');
+    opacity: .95;
+    height: 100vh;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 250%;
+    color: rgb(16, 52, 16);
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.title > p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    margin-bottom: 85px;
+    margin-left: 340px;
+    margin-right: 340px;
+    text-align: center;
+    color: white;
+}
+
+main h1{
+    margin: 10px;
+    color:rgb(16, 52, 16);
+    font-size:large ;
+}
+
+main p{
+    color:rgb(16, 52, 16);
+    text-align: center;
+}
+
+.region-grid{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-bottom: 30px;
+}
+
+.box{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.button{
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: larger;
+    position: relative;
+}
+
+.one{
+    background-image: url('../img/mountains.jpeg');
+    border: 2px solid white;
+    filter: grayscale(100%);
+    transition-duration: 1s;
+}
+
+.one:hover{
+    filter:none;
+    transition-duration: 0.5s;
+}
+
+.two{
+    background-image: url('../img/piedmont.jpeg');
+    border: 2px solid white;
+    filter: grayscale(100%);
+    transition-duration: 1s;
+}
+
+.two:hover{
+    filter:none;
+    transition-duration: 0.5s;
+}
+
+.three{
+    background-image: url('../img/icp.jpeg');
+    border: 2px solid white;
+    filter: grayscale(100%);
+    transition-duration: 1s;
+}
+
+.three:hover{
+    filter:none;
+    transition-duration: 0.5s;
+}
+
+.four{
+    background-image: url('../img/tidewater.jpeg');
+    border: 2px solid white;
+    filter: grayscale(100%);
+    transition-duration: 1s;
+}
+
+.four:hover{
+    filter:none;
+    transition-duration: 0.5s;
+}
+
+.footer {
+    background-color: lightblue; 
+    color: navy; 
+    padding: 10px 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border: 2px solid navy;
+}
+
+.footer-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%; 
+    max-width: 1200px; 
+}
+
+.footer-logo {
+    width: 50px; 
+    height: auto; 
+}
+
+.contact-info {
+    flex-grow: 1; 
+    text-align: center; 
+    padding-left: 20px;
+}
+
+.contact-info p {
+    margin: 0; 
+    line-height: 1.5;
+}
+
+/*Mountain Page*/
+.mtn-page{
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-color:lightgray;
+}
+
+.mtn-container{
+    display:flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+    background-color: transparent;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.logo{
+    max-height: 20px;
+    width: auto;
+}
+
+.mtn-menu-item:hover{
+    text-decoration: underline;
+}
+
+.mtn-menu-item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    text-decoration: none;
+    color:green;
+    font-size: 14px;
+}
+
+.mtn-title{
+    background-image: url('../img/mountains.jpeg');
+    opacity: .95;
+    height: 100vh;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mtn-title h1{
+    text-align: center;
+    font-size: 250%;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.mtn-main{
+    width: auto;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.mtn-map{
+    width:100%;
+    justify-content: center;
+}
+
+.mtn-map iframe{
+    width:100%;
+    min-height: 350px;
+}
+
+.column-right iframe{
+    margin: 0px;
+    width: 100%;
+    min-height: 350px;
+}
+
+.mtn-column-left p{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90%;
+    text-align: justify;
+    color:black;
+}
+
+.column-right .mtn-author-link{
+    text-align: center;
+    color: black;
+}
+
+.mtn-author-link a{
+    color: darkgreen;
+}
+
+.caption{
+    font-size: 75%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #343C36;
+    text-align: center;
+}
+
+.mtn-img{
+    width: 100%;
+    height: auto;
+}
+
+.mtn-author-link{
+    margin-top: 48px;
+}
+
+.button-nav{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-left{
+    background-image: url('../img/home.jpg');
+    filter: grayscale(100%);
+    min-height: 75px;
+    width: 49%;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    border: 2px solid #343C36;
+}
+
+.btn-left:hover{
+    filter: none;
+    transition-duration: 0.5s;
+}
+
+.btn-right{
+    background-image: url('../img/piedmont.jpeg');
+    filter: grayscale(100%);
+    min-height: 75px;
+    width: 49%;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    border: 2px solid #343C36;
+}
+
+.btn-right:hover{
+    filter: none;
+    transition-duration: 0.5s;
+}
+
+.button-text{
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+}
+
+.button-caption{
+    font-size: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 3%;
+    color: white;
+}
+
+/*Piedmont Page*/
+.pdm-page{
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-color:lightgray;
+}
+
+.pdm-container{
+    display:flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+    background-color: transparent;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.pdm-menu-item:hover{
+    text-decoration: underline;
+}
+
+.pdm-menu-item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    text-decoration: none;
+    color:green;
+    font-size: 14px;
+}
+
+.pdm-title{
+    background-image: url('../img/piedmont.jpeg');
+    opacity: .95;
+    height: 100vh;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdm-title h1{
+    text-align: center;
+    font-size: 250%;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.pdm-main{
+    width: auto;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.pdm-intro p{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90%;
+    text-align: justify;
+    color:black;
+}
+
+.pdm-map{
+    width:100%;
+    justify-content: center;
+}
+
+.pdm-map iframe{
+    width: 100%;
+    min-height: 350px;
+}
+
+.column-right iframe{
+    margin: 0px;
+    width: 100%;
+    min-height: 350px;
+}
+
+.pdm-caption{
+    font-size: 75%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #343C36;
+    text-align: center;
+}
+
+.pdm-text-one p{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90%;
+    text-align: justify;
+    color:black;
+}
+
+.pdm-text-one h1{
+    font-size: 150%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pdm-img{
+    width: 100%;
+    height: auto;
+}
+
+.pdm-text-one .pdm-author-link{
+    text-align: center;
+    color: black;
+}
+
+.pdm-author-link a{
+    color: crimson;
+}
+
+.pdm-author-link{
+    margin-top: 48px;
+}
+
+.pdm-btn-left{
+    background-image: url('../img/mountains.jpeg');
+    filter: grayscale(100%);
+    min-height: 75px;
+    width: 49%;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    border: 2px solid #343C36;
+}
+
+.pdm-btn-left:hover{
+    filter: none;
+    transition-duration: 0.5s;
+}
+
+.pdm-btn-right{
+    background-image: url('../img/icp.jpeg');
+    filter: grayscale(100%);
+    min-height: 75px;
+    width: 49%;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    border: 2px solid #343C36;
+}
+
+.pdm-btn-right:hover{
+    filter: none;
+    transition-duration: 0.5s;
+}
+
+/*Inner Coastal Plains Page*/
+.icp-page{
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-color:lightgray;
+}
+
+.icp-container{
+    display:flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+    background-color: transparent;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.icp-menu-item:hover{
+    text-decoration: underline;
+}
+
+.icp-menu-item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+
+.icp-title{
+    background-image: url('../img/icp.jpeg');
+    opacity: .95;
+    height: 100vh;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icp-title h1{
+    text-align: center;
+    font-size: 250%;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.icp-main{
+    width: auto;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.icp-intro p{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90%;
+    text-align: justify;
+    color:black;
+}
+
+i{
+    font-style: italic;
+}
+
+.icp-map{
+    width:100%;
+    justify-content: center;
+}
+
+.icp-map iframe{
+    width: 100%;
+    min-height: 350px;
+}
+
+.icp-caption{
+    font-size: 75%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #343C36;
+    text-align: center;
+}
+
+.icp-text-one p{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90%;
+    text-align: justify;
+    color:black;
+}
+
+.icp-img{
+    width: 100%;
+    height: auto;
+}
+
+.icp-text-one .icp-author-link{
+    text-align: center;
+    color: black;
+}
+
+.icp-author-link a{
+    color: crimson;
+}
+
+.icp-author-link{
+    margin-top: 48px;
+}
+
+.icp-btn-left{
+    background-image: url('../img/piedmont.jpeg');
+    filter: grayscale(100%);
+    min-height: 75px;
+    width: 49%;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    border: 2px solid #343C36;
+}
+
+.icp-btn-left:hover{
+    filter: none;
+    transition-duration: 0.5s;
+}
+
+.icp-btn-right{
+    background-image: url('../img/tidewater.jpeg');
+    filter: grayscale(100%);
+    min-height: 75px;
+    width: 49%;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    border: 2px solid #343C36;
+}
+
+.icp-btn-right:hover{
+    filter: none;
+    transition-duration: 0.5s;
+}
+
+/*Tidewater Page*/
+.tide-page{
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-color:lightgray;
+}
+
+.tide-container{
+    display:flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+    background-color: transparent;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.tide-menu-item:hover{
+    text-decoration: underline;
+}
+
+.tide-menu-item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    text-decoration: none;
+    color:midnightblue;
+    font-size: 14px;
+}
+
+.tide-title{
+    background-image: url('../img/tidewater.jpeg');
+    opacity: .95;
+    height: 100vh;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tide-title h1{
+    text-align: center;
+    font-size: 250%;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.tide-main{
+    width: auto;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.tide-intro p{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90%;
+    text-align: justify;
+    color:black;
+}
+
+.tide-map{
+    width:100%;
+    justify-content: center;
+}
+
+.tide-map iframe{
+    width: 100%;
+    min-height: 350px;
+}
+
+.tide-caption{
+    font-size: 75%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #343C36;
+    text-align: center;
+}
+
+.tide-text-one p{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90%;
+    text-align: justify;
+    color:black;
+}
+
+.tide-img{
+    width: 100%;
+    height: auto;
+}
+
+.tide-text-one .tide-author-link{
+    text-align: center;
+    color: black;
+}
+
+.tide-author-link a{
+    color: crimson;
+}
+
+.tide-author-link{
+    margin-top: 48px;
+}
+
+.tide-btn-left{
+    background-image: url('../img/icp.jpeg');
+    filter: grayscale(100%);
+    min-height: 75px;
+    width: 49%;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    border: 2px solid #343C36;
+}
+
+.tide-btn-left:hover{
+    filter: none;
+    transition-duration: 0.5s;
+}
+
+.tide-btn-right{
+    background-image: url('../img/home.jpg');
+    filter: grayscale(100%);
+    min-height: 75px;
+    width: 49%;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    border: 2px solid #343C36;
+}
+
+.tide-btn-right:hover{
+    filter: none;
+    transition-duration: 0.5s;
+}
+
+/*Contact Page*/
+.contact-body {
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-color:lightgray;
+}
+.contact-title{
+    background-image: url('../img/contact.jpeg');
+    opacity: .95;
+    height: 100vh;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title h1{
+    margin-top: 150px;
+    color: navy;
+}
+
+.contact-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover,
+.contact-form button:focus {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition-duration: 1s; 
+}
+
+@media screen and (min-width: 1280px){
+/*Home page section*/
+    .nav-bar{
+        justify-content: center;
+    }
+
+    .logo{
+        max-width: 85px;
+    }
+
+    .menu-item{
+        font-size: 25px;
+    }
+
+    .title h1{
+        font-size: 400%;
+    }
+
+    main h1{
+        font-size: 150%;
+    }
+
+    main p{
+        text-align: center;
+    }
+
+    .container{
+        display:flex;
+        justify-content: space-evenly;
+        height: 50px;
+        width: 66%;
+        align-items: center;
+        position:absolute;
+        z-index: 1;
+        background-color: transparent;
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    .region-grid{
+        width: 100%;
+        height: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-bottom: 100px;
+    }
+
+/*Mountain page */
+    .mtn-menu-item{
+        font-size: 25px;
+    }
+
+    .mtn-title h1{
+        font-size: 400%;
+    }
+
+    .mtn-main{
+        text-align: center;
+        margin-top: -16px;
+    }
+
+    .mtn-main p{
+        margin-top: 16px;
+    }
+
+    .column-right{
+        width: auto;
+        font-size: larger;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .mtn-page{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .mtn-column-left{
+        width: auto;
+        font-size: 150%;
+        justify-content: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .mtn-container{
+        display:flex;
+        justify-content: space-evenly;
+        height: 50px;
+        width: 66%;
+        align-items: center;
+        position:absolute;
+        z-index: 1;
+        background-color: transparent;
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    iframe{
+        width: 90%;
+        min-height: 150px;
+    }
+
+    .mtn-column-left .mtn-author-link{
+        font-size: 90%;
+        text-align: center;
+    }
+
+    /*Piedmont Page*/
+    .pdm-page{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .pdm-container{
+        display:flex;
+        justify-content: space-evenly;
+        height: 50px;
+        width: 66%;
+        align-items: center;
+        position:absolute;
+        z-index: 1;
+        background-color: transparent;
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    .pdm-menu-item{
+        font-size: 25px;
+    }
+
+    .pdm-title h1{
+        font-size: 400%;
+    }
+
+    .pdm-main{
+        text-align: center;
+        margin-top: -16px;
+    }
+
+    .pdm-main p{
+        margin-top: 16px;
+    }
+
+    .pdm-intro{
+        width: auto;
+        font-size: 150%;
+        justify-content: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .pdm-map .column-right{
+        width: auto;
+        font-size: larger;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .pdm-map iframe{
+        width: 100%;
+        min-height: 350px;
+    }
+
+    .pdm-text-one{
+        width: auto;
+        font-size: 150%;
+        justify-content: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .pdm-text-one h1{
+        font-size: 150%;
+        margin-bottom: 75px;
+    }
+
+    .pdm-text-two{
+        width: auto;
+        font-size: larger;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    /*Inner Coastal Plains Page*/
+    .icp-page{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .icp-container{
+        display:flex;
+        justify-content: space-evenly;
+        height: 50px;
+        width: 66%;
+        align-items: center;
+        position:absolute;
+        z-index: 1;
+        background-color: transparent;
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    .icp-menu-item{
+        font-size: 25px;
+    }
+
+    .icp-title h1{
+        font-size: 400%;
+    }
+
+    .icp-main{
+        text-align: center;
+        margin-top: -16px;
+    }
+
+    .icp-main p{
+        margin-top: 16px;
+    }
+
+    .icp-intro{
+        width: auto;
+        font-size: 150%;
+        justify-content: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .icp-map .column-right{
+        width: auto;
+        font-size: larger;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .icp-map iframe{
+        width: 100%;
+        min-height: 350px;
+    }
+
+    .icp-text-one{
+        width: auto;
+        font-size: 150%;
+        justify-content: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .icp-text-two{
+        width: auto;
+        font-size: larger;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .icp-text-two iframe{
+        width: 100%;
+        min-height: 350px;
+    }
+
+    /*Tidewater Page*/
+    .tide-page{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .tide-container{
+        display:flex;
+        justify-content: space-evenly;
+        height: 50px;
+        width: 66%;
+        align-items: center;
+        position:absolute;
+        z-index: 1;
+        background-color: transparent;
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    .tide-menu-item{
+        font-size: 25px;
+    }
+
+    .tide-title h1{
+        font-size: 400%;
+    }
+
+    .tide-main{
+        text-align: center;
+        margin-top: -16px;
+    }
+
+    .tide-main p{
+        margin-top: 16px;
+    }
+
+    .tide-intro{
+        width: auto;
+        font-size: 150%;
+        justify-content: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .tide-map .column-right{
+        width: auto;
+        font-size: larger;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .tide-map iframe{
+        width: 100%;
+        min-height: 350px;
+    }
+
+    .tide-text-one{
+        width: auto;
+        font-size: 150%;
+        justify-content: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .tide-text-two{
+        width: auto;
+        font-size: larger;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .tide-text-two iframe{
+        width: 100%;
+        min-height: 350px;
+    }
+
+    /*Footer Page*/
+    .footer {
+        flex-direction: row; 
+        padding: 10px 20px;
+    }
+
+    .footer-container {
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+
+    .footer-logo {
+        margin-bottom: 0; 
+    }
+
+    .contact-info {
+        padding-left: 20px; 
+        flex-grow: 1; 
+    }
+}
